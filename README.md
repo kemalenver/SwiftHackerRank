@@ -4,8 +4,8 @@ This is a collection of some of my Hacker Rank submissions written in swift
 
 To allow these to work in a playground I have done the following:
 
-Updated to Swift 3.1
-Data input has been mocked
+* Updated to Swift 3.1
+* Data input has been mocked
 
 So far I have included the following:
 
