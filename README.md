@@ -1,11 +1,11 @@
-#Swift [HackerRank]:https://www.hackerrank.com Submissions 
+#Swift [HackerRank](https://www.hackerrank.com) Submissions 
 
 This is a collection of some of my Hacker Rank submissions written in swift
 
 To allow these to work in a playground I have done the following:
 
-Updated to Swift 3.1
-Data input has been mocked
+* Updated to Swift 3.1
+* Data input has been mocked
 
 So far I have included the following:
 
@@ -24,3 +24,6 @@ So far I have included the following:
 13. Warmup - Circular Array Rotation
 14. Warmup - Simple Array Sum
 15. Warmup - Time Conversion
+
+### Authors and Contributors
+Kemal Enver (@kemalenver) 
