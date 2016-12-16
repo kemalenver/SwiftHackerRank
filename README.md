@@ -19,11 +19,12 @@ So far I have included the following:
 8. Sorting - Insertion Sort - Part 1
 9. Strings - CamelCase.
 10. Strings - Gemstones
-11. Strings - Super Reduced String
-12. Strings - Two Characters
-13. Warmup - Circular Array Rotation
-14. Warmup - Simple Array Sum
-15. Warmup - Time Conversion
+11. Strings - Palindrome Index
+12. Strings - Super Reduced String
+13. Strings - Two Characters
+14. Warmup - Circular Array Rotation
+15. Warmup - Simple Array Sum
+16. Warmup - Time Conversion
 
 ### Authors and Contributors
 Kemal Enver (@kemalenver) 
