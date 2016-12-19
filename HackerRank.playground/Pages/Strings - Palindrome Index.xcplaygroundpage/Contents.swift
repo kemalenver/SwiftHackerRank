@@ -23,7 +23,7 @@ func readLine() -> String? {
 // Performance of Swift strings and characters is really bad for tasks like this.
 // Instead the input is converte to a primitive type that we can use instead UnicodeScalar
 
-func PalindromeIndex(word: [UnicodeScalar]) -> Int {
+func palindromeIndex(word: [UnicodeScalar]) -> Int {
     
     var index = -1
     
@@ -56,7 +56,7 @@ for i in 0..<n {
     
     let convertedString = Array(testCase.unicodeScalars)
     
-    let index = PalindromeIndex(word: convertedString)
+    let index = palindromeIndex(word: convertedString)
     
     print(index)
 }

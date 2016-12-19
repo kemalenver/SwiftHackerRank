@@ -18,5 +18,6 @@
         <page name='Warmup - Circular Array Rotation'/>
         <page name='Warmup - Time Conversion'/>
         <page name='Warmup - Simple Array Sum'/>
+        <page name='Strings - Anagram'/>
     </pages>
 </playground>
