@@ -22,9 +22,10 @@ So far I have included the following:
 11. Strings - Palindrome Index
 12. Strings - Super Reduced String
 13. Strings - Two Characters
-14. Warmup - Circular Array Rotation
-15. Warmup - Simple Array Sum
-16. Warmup - Time Conversion
+14. Strings - Beautiful Binary String
+15. Warmup - Circular Array Rotation
+16. Warmup - Simple Array Sum
+17. Warmup - Time Conversion
 
 ### Authors and Contributors
 Kemal Enver (@kemalenver) 
