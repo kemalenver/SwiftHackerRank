@@ -24,6 +24,7 @@ So far I have included the following:
 * Strings - Two Characters
 * Strings - Beautiful Binary String
 * Strings - Anagram
+* Strings - Making Anagrams
 * Warmup - Circular Array Rotation
 *.* Warmup - Simple Array Sum
 * Warmup - Time Conversion
