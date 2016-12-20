@@ -7,26 +7,26 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Updated to Swift 3.1
 * `readLine()` has been mocked
 
-#Algorithms
+##Algorithms
 
-##Bit Manipulation
+###Bit Manipulation
 * Bit Manipulation - Lonely Integer
 * Bit Manipulation - Sum vs XOR
 
-##Dynamic Programming
+###Dynamic Programming
 * The Maximum Subarray
 
-##Game Theory
+###Game Theory
 * Game of Stones
 * Tower Breakers
 
-##Implementation
+###Implementation
 * SockMerchant
 
-##Sorting
+###Sorting
 * Insertion Sort - Part 1
 
-##Strings
+###Strings
 * CamelCase.
 * Gemstones
 * Palindrome Index
@@ -36,22 +36,22 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Anagram
 * Making Anagrams
 
-##Warmup
+###Warmup
 * Simple Array Sum
 * Circular Array Rotation
 * Time Conversion
 
-#Data Structures
+##Data Structures
 
-##Arrays
+###Arrays
 * Arrays - DS
 
-#Functional Programming
+##Functional Programming
 ##Introduction
 * Solve me first
 
-#Security
-##Functions
+##Security
+###Functions
 * Security Functions
 * Security Functions II
 * Security Bijective Functions
@@ -59,12 +59,12 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Security Permutations
 * Security Involution
 
-#Tutorials
-##30 Days
+##Tutorials
+###30 Days
 * Day 9: Recursion
 * Day 20: Sorting
 * Day 25: Running Time and Complexity
 * Day 29: Bitwise AND
 
-### Authors and Contributors
+#### Authors and Contributors
 Kemal Enver (@kemalenver) 
