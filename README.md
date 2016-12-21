@@ -36,6 +36,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Anagram
 * Making Anagrams
 * Game of Thrones - I
+* Two Strings
 
 ###Warmup
 * Simple Array Sum
