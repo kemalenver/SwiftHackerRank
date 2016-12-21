@@ -9,19 +9,6 @@
         <page name='Strings - Beautiful Binary String'/>
         <page name='Strings - Anagram'/>
         <page name='Strings - Making Anagrams'/>
-        <page name='30 Days - Day 9 Recursion'/>
-        <page name='30 Days - Day 20 Sorting'/>
-        <page name='30 Days - Day 25 Running Time and Complexity'/>
-        <page name='30 Days - Day 29 Bitwise AND'/>
-        <page name='Game Theory - Tower Breakers'/>
-        <page name='Game Theory - Game of Stones'/>
-        <page name='Implementation - SockMerchant'/>
-        <page name='Sorting - Insertion Sort - Part 1'/>
-        <page name='Bit Manipulation - Sum vs XOR'/>
-        <page name='Bit Manipulation - Lonely Integer'/>
-        <page name='Dynamic Programming - The Maximum Subarray'/>
-        <page name='Warmup - Circular Array Rotation'/>
-        <page name='Warmup - Time Conversion'/>
-        <page name='Warmup - Simple Array Sum'/>
+        <page name='Strings - Game of Thrones - I'/>
     </pages>
 </playground>
