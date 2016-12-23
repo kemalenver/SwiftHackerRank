@@ -13,51 +13,33 @@ func readLine() -> String? {
     return next
 }
 
-extension Character {
-    
-    func unicodePoint() -> Int {
-        
-        return String(self).unicodePoint()
-    }
-}
-
-extension String {
-    
-    func unicodePoint() -> Int {
-        
-        let scalars = self.unicodeScalars
-        
-        return Int(scalars[scalars.startIndex].value)
-    }
-}
-
 let n = Int(readLine()!)
 let string = readLine()!
 
-func longestAlternatingString(s: String) -> Int {
+func longestAlternatingString(input: String) -> Int {
     
-    var characters = Array(repeating: Array(repeating: Character(" "), count: 26), count: 26)
+    var characters = Array(repeating: Array(repeating: 0, count: 26), count: 26)
     var values = Array(repeating: Array(repeating: 0, count: 26), count: 26)
     
-    for c in s.characters {
+    for character in input.utf8 {
     
-        // This is basically the difference between our character and the start of the alphabet 'a'
-        // which will give an index between 0 and 26
-        let idx = c.unicodePoint() - 97
+        // This is the difference between the code points of character and 'a' which will give an index between 0 and 26
+        let characterCodePoint = Int(character)
+        let idx = characterCodePoint - 97
         
         for i in 0..<26 {
             
-            if characters[idx][i] != c && values[idx][i] != -1 {
+            if characters[idx][i] != characterCodePoint && values[idx][i] != -1 {
                 
-                characters[idx][i] = c
+                characters[idx][i] = characterCodePoint
                 values[idx][i] += 1
             } else {
                 values[idx][i] = -1;
             }
             
-            if characters[i][idx] != c && values[i][idx] != -1 {
+            if characters[i][idx] != characterCodePoint && values[i][idx] != -1 {
                 
-                characters[i][idx] = c
+                characters[i][idx] = characterCodePoint
                 values[i][idx] += 1
             } else {
                 values[i][idx] = -1;
@@ -81,4 +63,4 @@ func longestAlternatingString(s: String) -> Int {
     return largestString > 1 ? largestString : 0
 }
 
-print(longestAlternatingString(s: string))
+print(longestAlternatingString(input: string))
