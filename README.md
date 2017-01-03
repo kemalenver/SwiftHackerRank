@@ -22,6 +22,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 
 ###Implementation
 * SockMerchant
+* Designer PDF Viewer
 
 ###Sorting
 * Insertion Sort - Part 1
