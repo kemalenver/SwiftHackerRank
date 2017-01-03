@@ -18,7 +18,7 @@ var left = [Int]()
 var equal = [Int]()
 var right = [Int]()
 
-func partition(values: [Int], left: inout [Int], equal: inout [Int], right: inout [Int]) {
+func partition<T: Comparable>(values: [T], left: inout [T], equal: inout [T], right: inout [T]) {
     
     guard !values.isEmpty else { return }
     

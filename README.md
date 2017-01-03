@@ -26,7 +26,8 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 
 ###Sorting
 * Insertion Sort - Part 1
-* Quicksort 1 - partition
+* Quicksort 1 - Partition
+* Quicksort 2 - Sorting
 
 ###Strings
 * CamelCase.

@@ -3,5 +3,6 @@
     <pages>
         <page name='Sorting - Insertion Sort - Part 1'/>
         <page name='Sorting - Quicksort 1 - Partition'/>
+        <page name='Sorting - Quicksort 2 - Sorting'/>
     </pages>
 </playground>
