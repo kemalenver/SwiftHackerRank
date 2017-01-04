@@ -48,12 +48,12 @@ func copyBack<T: Comparable>(array: inout [T], subArray: [T], startPosition: Int
     
     var startPosition = startPosition
     
-    for l in 0..<subArray.count {
+    for i in 0..<subArray.count {
         
-        array[startPosition] = subArray[l]
+        array[startPosition] = subArray[i]
         startPosition += 1
         
-        print(subArray[l], separator: " ", terminator: " ")
+        print(subArray[i], separator: " ", terminator: " ")
     }
     
     return startPosition
