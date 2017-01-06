@@ -1,4 +1,3 @@
-import Foundation
 
 var inputs = ["2", "5", "1 1 1 2 2", "5", "2 1 3 1 2"]
 
@@ -16,85 +15,76 @@ func readLine() -> String? {
 
 var inversions = 0
 
-func mergeSort(_ nums: inout [Int], _ left: Int, _ right: Int) {
+func mergeSort(_ nums: inout [Int], _ i: Int, _ j: Int) {
     
-    if left < right {
+    if i < j {
         
-        let mid = (left + right) / 2
+        let mid = (i+j)/2
         
-        mergeSort(&nums, left, mid)
-        mergeSort(&nums, mid + 1, right)
+        mergeSort(&nums, i, mid)
+        mergeSort(&nums, mid+1, j)
         
-        merge(&nums, left, mid, right)
+        merge(&nums, i, j, mid)
     }
 }
 
-func merge(_ nums: inout [Int], _ left: Int, _ mid: Int, _ right: Int) {
+func merge(_ a: inout [Int], _ i: Int, _ j: Int, _ mid: Int) {
     
-    let leftLength = mid - left + 1
-    let rightLength = right - mid
+    var i = i
+    var j = j
     
-//    var lAr = [Int](repeating: 0, count: leftLength)
-//    var rAr = [Int](repeating: 0, count: rightLength)
+    let ni = mid + 1
+    let nj = j + 1
+    var s = i
     
-    var lAr = [Int]()
-    var rAr = [Int]()
+    var arr = [Int](repeating: 0, count: j - i + 1)
+    j = ni
     
-    for i in 0 ..< leftLength {
-        lAr.append(nums[left + i])
-    }
+    var k = 0
     
-    for i in 0 ..< rightLength {
-        rAr.append(nums[mid + 1 + i])
-    }
-    
-    var i = 0
-    var j = 0
-    var k = left
-    
-    while i < leftLength && j < rightLength {
+    while i < ni && j < nj {
         
-        if lAr[i] <= rAr[j] {
+        if a[i] <= a[j] {
             
-            nums[k] = lAr[i]
-            inversions += j
+            arr[k] = a[i]
             i += 1
-            
         } else {
             
-            nums[k] = rAr[j]
+            arr[k] = a[j]
+            inversions += (ni - i)
             j += 1
         }
-        
         k += 1
     }
     
-    inversions += j * (leftLength - i)
+    while i < ni {
+        
+        arr[k] = a[i]
+        i += 1
+        k += 1
+    }
     
-    if i >= leftLength {
+    while j < nj {
         
-        while j < rightLength {
-            
-            nums[k] = rAr[j]
-            j += 1
-            k += 1
-        }
-    } else {
+        arr[k] = a[j]
+        j += 1
+        k += 1
+    }
+    
+    k = 0
+    
+    while s < nj {
         
-        while i < leftLength {
-            
-            nums[k] = lAr[i]
-            
-            i += 1
-            k += 1
-        }
+        a[s] = arr[k]
+        s += 1
+        k += 1
     }
 }
 
 let numberOfTests = Int(readLine()!)!
 
 for i in 0 ..< numberOfTests {
-
+    
     inversions = 0
     
     let numberOfElements = Int(readLine()!)!
@@ -105,4 +95,3 @@ for i in 0 ..< numberOfTests {
     
     print(inversions)
 }
-
