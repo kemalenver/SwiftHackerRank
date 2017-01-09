@@ -22,7 +22,7 @@ func mergeSort(_ nums: inout [Int], _ i: Int, _ j: Int) {
         let mid = (i+j)/2
         
         mergeSort(&nums, i, mid)
-        mergeSort(&nums, mid+1, j)
+        mergeSort(&nums, mid + 1, j)
         
         merge(&nums, i, j, mid)
     }
@@ -42,32 +42,34 @@ func merge(_ a: inout [Int], _ i: Int, _ j: Int, _ mid: Int) {
     
     var k = 0
     
-    while i < ni && j < nj {
+    while i < ni || j < nj {
         
-        if a[i] <= a[j] {
+        if i < ni && j < nj {
             
-            arr[k] = a[i]
-            i += 1
+            if a[i] <= a[j] {
+                
+                arr[k] = a[i]
+                i += 1
+                
+            } else {
+                
+                arr[k] = a[j]
+                inversions += (ni - i)
+                j += 1
+            }
+            
         } else {
             
-            arr[k] = a[j]
-            inversions += (ni - i)
-            j += 1
+            if i < ni {
+                
+                arr[k] = a[i]
+                i += 1
+            } else {
+                
+                arr[k] = a[j]
+                j += 1
+            }
         }
-        k += 1
-    }
-    
-    while i < ni {
-        
-        arr[k] = a[i]
-        i += 1
-        k += 1
-    }
-    
-    while j < nj {
-        
-        arr[k] = a[j]
-        j += 1
         k += 1
     }
     
