@@ -43,8 +43,6 @@ for i in 0..<lines {
     numbers.append(number)
 }
 
-numbers.sorted()
-
 let frequencies = calculateFrequencies(numbers: numbers)
 
 print( frequencies.joined(separator: " ") )
