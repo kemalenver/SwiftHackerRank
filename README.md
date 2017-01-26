@@ -31,6 +31,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Quicksort In-Place
 * Insertion Sort - Advanced Analysis (Problem, same as my passing python algorithm but not the same result!)
 * Closest Numbers
+* Counting Sort 3
 
 ###Strings
 * CamelCase.
