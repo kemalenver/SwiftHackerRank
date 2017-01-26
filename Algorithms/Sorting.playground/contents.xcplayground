@@ -9,5 +9,6 @@
         <page name='Untitled Page'/>
         <page name='Sorting - Closest Numbers'/>
         <page name='Countring Sort 3'/>
+        <page name='The Full Counting Sort'/>
     </pages>
 </playground>
