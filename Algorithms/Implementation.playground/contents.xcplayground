@@ -3,5 +3,6 @@
     <pages>
         <page name='Implementation - SockMerchant'/>
         <page name='Implementation - Designer PDFViewer'/>
+        <page name='Implementation - Equalize the Array'/>
     </pages>
 </playground>
