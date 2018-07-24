@@ -3,11 +3,11 @@ let inputs = ["5", "2 4 6 8 3"]
 
 var n = Int(inputs[0])!
 
-var array = inputs[1].characters.split(separator: " ").map{ Int(String($0))! }
+var array = inputs[1].split(separator: " ").map{ Int(String($0))! }
 
 for i in 1..<n {
     
-    var value = array[i]
+    let value = array[i]
     
     var position = i-1
     

@@ -52,7 +52,7 @@ func checkStringIsHackerRank(input:  String.UTF8View) -> Bool {
 
 let numberOfTests = Int(readLine()!)!
 
-for i in 0..<numberOfTests {
+for _ in 0..<numberOfTests {
     
     let string1 = readLine()!.utf8
     

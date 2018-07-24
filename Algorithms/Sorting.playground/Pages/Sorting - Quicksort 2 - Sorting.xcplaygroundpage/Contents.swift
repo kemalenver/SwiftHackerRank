@@ -40,7 +40,6 @@ func quickSort<T: Comparable>(array: inout [T]) {
     
     index = copyBack(array: &array, subArray: rightArr, startPosition: index)
 
-    
     print()
 }
 
@@ -62,6 +61,6 @@ func copyBack<T: Comparable>(array: inout [T], subArray: [T], startPosition: Int
 
 let arraySize = Int(readLine()!)!
 
-var inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+var inputArr = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
 quickSort(array: &inputArr)

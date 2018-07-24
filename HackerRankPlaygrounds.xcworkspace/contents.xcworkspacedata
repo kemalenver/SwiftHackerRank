@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Algorithms"
+      name = "Algorithms">
+      <FileRef
+         location = "group:Bit Manipulation.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Strings.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Dynamic Programming.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Game Theory.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Search.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Warmup.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Sorting.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Implementation.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/Data Structures"
+      name = "Data Structures">
+      <FileRef
+         location = "group:Arrays.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/Functional Programming"
+      name = "Functional Programming">
+      <FileRef
+         location = "group:Introduction.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/Security"
+      name = "Security">
+      <FileRef
+         location = "group:Functions.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/Tutorials"
+      name = "Tutorials">
+      <FileRef
+         location = "group:30 Days.playground">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/enverk/Documents/SwiftHackerRank/README.md">
+   </FileRef>
+</Workspace>

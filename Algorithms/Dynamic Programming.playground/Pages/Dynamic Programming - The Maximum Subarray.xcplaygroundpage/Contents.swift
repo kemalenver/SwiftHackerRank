@@ -37,10 +37,10 @@ func contiguousTotal(_ array:[Int]) -> Int {
     return maxSoFar
 }
 
-for i in 0..<numberTestCases {
+for _ in 0..<numberTestCases {
     
-    var numberElements = Int(readLine()!)!
-    var elements = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+    var _ = Int(readLine()!)!
+    let elements = readLine()!.split(separator: " ").map { Int(String($0))! }
     
     let total1 = contiguousTotal(elements)
     let total2 = nonContiguousTotal(elements)

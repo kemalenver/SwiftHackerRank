@@ -3,7 +3,7 @@ import Foundation
 
 func setFromString(_ line: String) -> Set<String> {
     
-    return Set( line.characters.map { String($0) } )
+    return Set( line.map { String($0) } )
 }
 
 let n = 3

@@ -27,7 +27,7 @@ func checkPair(string1: String.UTF8View, string2: String.UTF8View) -> Bool {
 
 let numberpairs = Int(readLine()!)!
 
-for i in 0..<numberpairs {
+for _ in 0..<numberpairs {
     
     let string1 = readLine()!.utf8
     let string2 = readLine()!.utf8

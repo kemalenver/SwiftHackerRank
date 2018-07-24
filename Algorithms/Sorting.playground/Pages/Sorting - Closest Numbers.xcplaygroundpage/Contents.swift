@@ -47,7 +47,7 @@ func findSmallestDifference(input: [Int]) -> String {
 
 let sizeOfInput = Int(readLine()!)!
 
-let inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+let inputArr = readLine()!.split(separator: " ").map{ Int(String($0))! }
 let sorted = inputArr.sorted()
 
 let list = findSmallestDifference(input: sorted)

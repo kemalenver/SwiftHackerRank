@@ -129,11 +129,11 @@ func mergeSort(_ array: [Int]) -> Int {
 
 let numberOfTests = Int(readLine()!)!
 
-for i in 0 ..< numberOfTests {
+for _ in 0 ..< numberOfTests {
     
-    let numberOfElements = Int(readLine()!)!
+    let _ = Int(readLine()!)!
     
-    var inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+    let inputArr = readLine()!.split(separator: " ").map{ Int(String($0))! }
     
     let answer = mergeSort(inputArr)
     

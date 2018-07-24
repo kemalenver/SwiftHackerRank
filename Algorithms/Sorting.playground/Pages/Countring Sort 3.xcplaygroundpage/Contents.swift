@@ -37,7 +37,7 @@ func calculateFrequencies(numbers: [Int]) -> [String] {
 let lines = Int(readLine()!)!
 
 var numbers = [Int]()
-for i in 0..<lines {
+for _ in 0..<lines {
     
     let number  = Int(readLine()!.components(separatedBy: " ").first!)!
     numbers.append(number)
@@ -46,5 +46,3 @@ for i in 0..<lines {
 let frequencies = calculateFrequencies(numbers: numbers)
 
 print( frequencies.joined(separator: " ") )
-
-

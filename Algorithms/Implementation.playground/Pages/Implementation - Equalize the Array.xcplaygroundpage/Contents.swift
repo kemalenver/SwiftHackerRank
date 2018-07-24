@@ -30,7 +30,7 @@ func minimise(input: [Int]) -> Int {
 
 let arraySize = Int(readLine()!)!
 
-var inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+var inputArr = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
 let answer = minimise(input: inputArr)
 

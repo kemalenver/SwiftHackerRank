@@ -9,21 +9,21 @@ func readLine() -> String? {
     return next
 }
 
-var params = readLine()!.characters.split(separator: " ").map{Int(String($0))!}
+var params = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 let n = params[0]
 let k = params[1]
 let q = params[2]
 let rotation = k % n
 
-let elements:[Int] = readLine()!.characters.split(separator: " ").map{Int(String($0))!}
+let elements:[Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
 func nextM() -> Int {
     
     return Int(readLine()!)!
 }
 
-for i in 0..<q {
+for _ in 0..<q {
     
     let index = nextM()
     

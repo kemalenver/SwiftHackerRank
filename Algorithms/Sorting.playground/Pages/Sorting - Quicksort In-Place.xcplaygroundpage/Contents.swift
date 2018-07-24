@@ -24,7 +24,6 @@ func swapArrayValues<T: Comparable>(_ array: inout [T], indexA: Int, indexB: Int
     array[indexB] = temp
 }
 
-
 func partition<T: Comparable>(_ array: inout [T], p: Int, r: Int) -> Int {
     
     var q = p
@@ -70,6 +69,6 @@ func printArray<T>(_ array: [T]) {
 
 let numberOfElements = readLine()
 
-var inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+var inputArr = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 quickSort(&inputArr, p: 0, r: inputArr.count - 1)

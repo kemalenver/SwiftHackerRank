@@ -48,7 +48,7 @@ let lines = Int(readLine()!)!
 var numbers = [Int]()
 var original = [String]()
 
-for i in 0..<lines {
+for _ in 0..<lines {
     
     let split = readLine()!.components(separatedBy: " ")
     

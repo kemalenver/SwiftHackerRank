@@ -12,7 +12,7 @@ func readLine() -> String? {
 
 let arraySize = Int(readLine()!)!
 
-let array = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+let array = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 var left = [Int]()
 var equal = [Int]()

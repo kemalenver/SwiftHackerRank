@@ -27,7 +27,7 @@ func findArea(heights: [Int], word: String) -> Int {
     return maxHeight * word.count
 }
 
-let heights = readLine()!.characters.split(separator: " ").map { (character) -> Int in
+let heights = readLine()!.split(separator: " ").map { (character) -> Int in
     let stringChar = String(character)
     return Int(stringChar)!
 }

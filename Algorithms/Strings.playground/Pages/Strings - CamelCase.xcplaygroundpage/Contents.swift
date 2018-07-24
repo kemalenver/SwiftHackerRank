@@ -1,7 +1,7 @@
 
 let input = "someStringThatIsCamel"
 
-let numberOfWords = input.characters.reduce(1) { (count, character) in
+let numberOfWords = input.reduce(1) { (count, character) in
     
     return "A"..."Z" ~= String(character) ? count + 1 : count
 }

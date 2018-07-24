@@ -85,13 +85,13 @@ func merge(_ a: inout [Int], _ i: Int, _ j: Int, _ mid: Int) {
 
 let numberOfTests = Int(readLine()!)!
 
-for i in 0 ..< numberOfTests {
+for _ in 0 ..< numberOfTests {
     
     inversions = 0
     
     let numberOfElements = Int(readLine()!)!
     
-    var inputArr = readLine()!.characters.split(separator: " ").map{ Int(String($0))! }
+    var inputArr = readLine()!.split(separator: " ").map{ Int(String($0))! }
     
     mergeSort(&inputArr, 0, numberOfElements - 1);
     

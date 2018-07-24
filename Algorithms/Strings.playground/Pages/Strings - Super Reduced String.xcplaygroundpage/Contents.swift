@@ -3,7 +3,7 @@ import Foundation
 
 var input = "aaabccddd"
 
-var array = input.characters.map( { return String($0) } )
+var array = input.map { String($0) }
 
 func removeDuplicate(_ original: [String]) -> [String] {
     
