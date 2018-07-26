@@ -1,4 +1,4 @@
-#Swift [HackerRank](https://www.hackerrank.com) Submissions 
+# Swift [HackerRank](https://www.hackerrank.com) Submissions 
 
 This is a collection of some of my Hacker Rank submissions written in swift
 
@@ -7,27 +7,27 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Updated to Swift 3.1
 * `readLine()` has been mocked
 
-##Algorithms
+## Algorithms
 
-###Bit Manipulation
+### Bit Manipulation
 * Bit Manipulation - Lonely Integer
 * Bit Manipulation - Sum vs XOR
 
-###Dynamic Programming
+### Dynamic Programming
 * The Maximum Subarray
 
-###Game Theory
+### Game Theory
 * Game of Stones
 * Tower Breakers
 
-###Implementation
+### Implementation
 * SockMerchant
 * Designer PDF Viewer
 * Equalize the Array
 * Grading
 * Matrix Layer Rotation
 
-###Sorting
+### Sorting
 * Insertion Sort - Part 1
 * Quicksort 1 - Partition
 * Quicksort 2 - Sorting
@@ -37,7 +37,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Counting Sort 3
 * The Full Counting Sort
 
-###Strings
+### Strings
 * CamelCase.
 * Gemstones
 * Palindrome Index
@@ -52,25 +52,25 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Sherlock and Anagrams
 * HackerRank in a String!
 
-###Warmup
+### Warmup
 * Simple Array Sum
 * Circular Array Rotation
 * Time Conversion
 
-##Data Structures
+## Data Structures
 
-###Arrays
+### Arrays
 * Arrays - DS
 
-###Search
+### Search
 * Ice Cream parlor
 
-##Functional Programming
-##Introduction
+## Functional Programming
+## Introduction
 * Solve me first
 
-##Security
-###Functions
+## Security
+### Functions
 * Security Functions
 * Security Functions II
 * Security Bijective Functions
@@ -78,8 +78,8 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Security Permutations
 * Security Involution
 
-##Tutorials
-###30 Days
+## Tutorials
+### 30 Days
 * Day 9: Recursion
 * Day 20: Sorting
 * Day 25: Running Time and Complexity
