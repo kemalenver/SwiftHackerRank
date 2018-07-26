@@ -1,10 +1,10 @@
 # Swift [HackerRank](https://www.hackerrank.com) Submissions 
 
-This is a collection of some of my Hacker Rank submissions written in swift
+This is a collection of some of my Hacker Rank submissions written in [Swift](https://www.swift.org)
 
-To allow these to work in XCode 8 playgrounds I have done the following:
+To allow these to work in XCode 9 playgrounds I have done the following:
 
-* Updated to Swift 3.1
+* Updated to Swift 4.1
 * `readLine()` has been mocked
 
 ## Algorithms
