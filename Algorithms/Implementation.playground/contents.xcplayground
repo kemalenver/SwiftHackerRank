@@ -5,5 +5,6 @@
         <page name='Implementation - Designer PDFViewer'/>
         <page name='Implementation - Equalize the Array'/>
         <page name='Implementation - Grading'/>
+        <page name='Matrix Layer Rotation'/>
     </pages>
 </playground>

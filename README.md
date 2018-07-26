@@ -23,6 +23,9 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 ###Implementation
 * SockMerchant
 * Designer PDF Viewer
+* Equalize the Array
+* Grading
+* Matrix Layer Rotation
 
 ###Sorting
 * Insertion Sort - Part 1
@@ -32,6 +35,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Insertion Sort - Advanced Analysis (Problem, same as my passing python algorithm but not the same result!)
 * Closest Numbers
 * Counting Sort 3
+* The Full Counting Sort
 
 ###Strings
 * CamelCase.
@@ -46,6 +50,7 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 * Two Strings
 * Sherlock and Valid String
 * Sherlock and Anagrams
+* HackerRank in a String!
 
 ###Warmup
 * Simple Array Sum
@@ -56,6 +61,9 @@ To allow these to work in XCode 8 playgrounds I have done the following:
 
 ###Arrays
 * Arrays - DS
+
+###Search
+* Ice Cream parlor
 
 ##Functional Programming
 ##Introduction
